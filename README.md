@@ -2,11 +2,12 @@
 ## Project Overview:
 This project, conducted using a dataset containing over 1 million banking transactions, aimed to segment customers to enable Goldman Sachs to provide personalized banking services. The primary focus was to extract demographic and transactional insights using SQL, analyze spending habits using Python
 ## Data Cleaning:
-•	Handling date formats like '01-06-1994' consistently across all records.
-•	Correcting year misinterpretations from Excel (e.g., 1957 becoming 2057).
-•	Converting transaction amount to float and applying proper numeric formatting.
-•	Removing nulls and irrelevant columns.
-•	Creating derived columns like 'Age', 'AgeGroup'. 
+	Handling date formats like '01-06-1994' consistently across all records.
+	Correcting year misinterpretations from Excel (e.g., 1957 becoming 2057).
+	Converting transaction amount to float and applying proper numeric formatting.
+	Removing nulls and irrelevant columns.
+	Creating derived columns like 'Age', 'AgeGroup'. 
+
 Result: Cleaned dataset with 1,000,000+ rows and 9 essential fields.
 ## Exploratory Data Analysis (EDA):
 Key EDA insights:- 
